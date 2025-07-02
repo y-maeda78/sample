@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* メインビジュアル */
+.wrap01 {
+  background: #605b5b;
+}
+
+/* サブビジュアル */
+.wrap02 {
+  background-color: #fff;
+}
+
+.wrap02 .container p {
+  width:90%;
+}
+
+/* 動画 */
+.wrap03 {
+  background-color: #4f4f4f;
+}
+
+/* コンテナ01 */
+.flexbox-container {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.flexbpx-item {
+  display: flex;
+}
+
+.flexbpx-item__number,.flexbpx-item__content {
+  background-color: #73afa9;
+  height: 60px;
+  color: #FFF;
+  margin-bottom: 10px;
+}
+
+.flexbpx-item__number {
+  width: 60px;
+  margin-right: 10px;
+}
+
+
+/* コンテナ02 */
+.parent {
+  background-color: #fc9797;
+}
+
+.parent p {
+  width: 350px;
+  font-size: 15px;
+}
+
+.parent img {
+  width: 350px;
+  align-items: center;
+}
+
+.parent-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.parent-container:nth-child(2n){
+  flex-direction: row-reverse;
+}
+
+.parent-item, .parent-img {
+  margin-right: 30px;
+
+}
+
+
+@media screen and (max-width:768px) {
+  div {}
+}
+
